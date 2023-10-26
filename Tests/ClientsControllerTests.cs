@@ -25,7 +25,7 @@ public class ClientsControllerTests
         {
             Name = "John Doe",
             Phone = "(43)91234-3943",
-            Emails = new List<string> { "invalid-email" }, // Invalid email
+            Emails = new List<string> { "invalid-email" },
             Addresses = new List<NewAddressDTO>
             { new NewAddressDTO { City = "City", State = "State", Street = "Street" } }
         };
@@ -45,7 +45,7 @@ public class ClientsControllerTests
         {
             Name = "John Doe",
             Phone = "invalid-phone",
-            Emails = new List<string> { "john@doe.com" }, // Invalid email
+            Emails = new List<string> { "john@doe.com" },
             Addresses = new List<NewAddressDTO>
             { new NewAddressDTO { City = "City", State = "State", Street = "Street" } }
         };
@@ -65,7 +65,7 @@ public class ClientsControllerTests
         {
             Name = "John Doe",
             Phone = "(43)91234-3943",
-            Emails = new List<string> { "john@doe.com" }, // Invalid email
+            Emails = new List<string> { "john@doe.com" },
             Addresses = new List<NewAddressDTO>
             { new NewAddressDTO { City = "City", State = "State", Street = "Street" } }
         };
