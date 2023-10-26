@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    container_name: sql-server
+    environment:
+      SA_PASSWORD: MySecretP@ssword
+      ACCEPT_EULA: Y
+      MSSQL_DB: clients-db
+    ports:
+      - "5434:1433"
